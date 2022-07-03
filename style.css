@@ -10,5 +10,7 @@ h1{color:gray;font-family: verdana}
 .div2 {
     padding-left: 90px;
 }
-.button1 {border-radius: 4px;}
+.button1 {
+    border-radius: 4px;
+}
 
