@@ -19,5 +19,6 @@ function positive(){
        
     if (principal < 1){
         alert("The principal value must be a positive number")
+        document.getElementById("principal").focus();
     }
 }
