@@ -17,7 +17,7 @@ function updateRate()
 function positive(){
     var principal = document.getElementById("principal").value;
        
-    if (principal < 0){
+    if (principal < 1){
         alert("The principal value must be a positive number")
     }
 }
