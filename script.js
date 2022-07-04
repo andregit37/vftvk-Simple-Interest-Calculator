@@ -13,3 +13,11 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval+"%";
 }
+
+function positive(){
+    var principal = document.getElementById("principal").value;
+       
+    if (principal < 0){
+        alert("The principal value must be a positive number")
+    }
+}
